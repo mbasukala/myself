@@ -1,21 +1,21 @@
 package com.gihub;
 
 public class House {
-    private float area;
+    private int area;
     private int story;
     private int window;
     private int door;
     private String color;
 
-    public float getArea() {
+    public int getArea() {
         return area;
     }
 
-    public void setArea(float area) {
+    public void setArea(int area) {
         this.area = area;
     }
 
-    public House(float area, int story, int window, int door, String color) {
+    public House(int area, int story, int window, int door, String color) {
         this.area = area;
         this.story = story;
         this.window = window;

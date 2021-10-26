@@ -3,7 +3,7 @@ package com.gihub;
 public class Main {
 
     public static void main(String[] args) {
-        House buildiing = new House(4.2F, 3, 4, 2, "white" );
+        House buildiing = new House(4.2F, 3, 4, 2, "pink" );
         System.out.println(buildiing.getArea());
         System.out.println(buildiing.getArea());
     }
